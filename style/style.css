@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+.grand_container__styles{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    position: relative; 
+    font-family: Lato;   
+}
+.header_container__styles{    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;    
+    position: relative;
+    text-align: center; 
+   
+}
+.header_h1__styles{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    font-size: 320%;
+    color: #3c3c3c;
+    width: 100vw;
+    height: 80px;
+}
+.header_horizontalline__styles{  
+    background-color: #dddbdb;
+    border: none;
+    width: 45px;
+    height: 4px;
+    position: relative;
+    top: -20px;    
+}
+.header_p__styles{    
+    display: flex;    
+    flex-direction: column;    
+    color: #3c3c3c;
+    position: relative;
+    justify-content: center;
+    width: 540px;
+    height: 90px;
+    top: -15px;
+    right: -25px;
+}
+.header_p_container__styles {
+    display: flex;
+    justify-content: center;    
+    width: 100vw;
+    height: 100px;
+}
+.center_panel_container__styles{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;    
+    position: relative;
+    text-align: center; 
+    width: 100vw;
+    height: 650px;    
+}
+.panel__styles{
+    width: 269px;
+    height: 330px;
+    margin: 50px;     
+}
+.developer_foto_panel__styles{
+    background-image: url("../img/Developer.png");
+    background-repeat: no-repeat;
+    width: 269px;
+    height: 260px;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;    
+}
+.artist_foto_panel__styles{
+    background-image: url("../img/Artist.png");
+    background-repeat: no-repeat;
+    width: 269px;
+    height: 260px;
+    position: relative;
+    z-index: 2;
+    overflow: hidden; 
+}
+.graphic_designer_foto_panel__styles{
+    background-image: url("../img/GraphicDisigner.png");
+    background-repeat: no-repeat;
+    width: 269px;
+    height: 260px;
+    position: relative;
+    z-index: 2;
+    overflow: hidden; 
+}
+.second_layer__style{
+    position: relative;
+    width: 269px;
+    height: 260px;
+    top: -260px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.developer_foto_panel__styles:hover .second_layer__style{
+    background-color: #00aed9;
+    top: 0;
+}
+.artist_foto_panel__styles:hover .second_layer__style{
+    background-color: #00aed9;
+    top: 0;
+}
+.graphic_designer_foto_panel__styles:hover .second_layer__style{
+    background-color: #00aed9;
+    top: 0;
+}
+.icon__style{    
+    margin: 5px;
+}
+.line_panel__styles{
+    position: relative;
+    top: 15px;
+    width: 269px;
+    height: 260px;
+    text-align: start;    
+}
+.name_styles{
+    font-weight: 900;
+}
